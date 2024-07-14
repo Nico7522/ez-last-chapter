@@ -10,7 +10,7 @@ export function Home() {
   useEffect(() => {
     let chapterArray: Chapter[] = [];
     let i = 274;
-    while (i < 295) {
+    while (i < 294) {
       chapterArray.push({ title: `Chapitre ${i}`, url: `chapter${i}` });
       i++;
     }
