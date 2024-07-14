@@ -1,0 +1,59 @@
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.navlink {
+  color: aliceblue;
+  font-size: larger;
+  padding: 50px;
+  width: 30%;
+  margin: 10px auto;
+  border: 2px solid aliceblue;
+  text-align: center;
+  font-family: deadrock-font;
+}
+
+.chapter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-number {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  font-family: "deadrock-font";
+
+}
+
+.simple-page {
+  width: 950px;
+}
+
+.double-page {
+  width: 1250px;
+}
+@font-face {
+  font-family: "deadrock-font";
+  src: local('font'), url("./font/PromsesBrokenDream1.ttf");
+  
+}
